@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JEditorPane" name="jEditorPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="1e" green="63" red="ff" type="rgb"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Cursor Por defecto"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TituloTesorosVisiblesPerdidos" min="-2" max="-2" attributes="0"/>
+                          <Component id="TituloNivelesPerdidos" min="-2" pref="156" max="-2" attributes="0"/>
+                          <Component id="TituloTesorosOcultosPerdidos" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="TituloTesoroOcultoPerdido" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TituloTipoTesoroVisiblePerdido" min="-2" pref="182" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="nivelesPerdidos" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="tipotesorosperdidosOcultos" alignment="0" pref="166" max="32767" attributes="0"/>
+                          <Component id="tesorosocultosPerdidos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tesorosvisiblesPerdidos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tipotesorosperdidosVisibles" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="TituloMuerto" min="-2" pref="119" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                      <Component id="muerto" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="312" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="76" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TituloNivelesPerdidos" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                      <Component id="nivelesPerdidos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="tesorosvisiblesPerdidos" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TituloTesorosVisiblesPerdidos" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tipotesorosperdidosVisibles" min="-2" max="-2" attributes="0"/>
+                  <Component id="TituloTipoTesoroVisiblePerdido" alignment="0" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TituloTesorosOcultosPerdidos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tesorosocultosPerdidos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TituloTesoroOcultoPerdido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tipotesorosperdidosOcultos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="28" max="32767" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="11" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TituloMuerto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="muerto" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="TituloNivelesPerdidos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lost levels:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TituloMuerto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Are you dead? "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TituloTesorosVisiblesPerdidos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Visible lost treasures:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TituloTesorosOcultosPerdidos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hidden lost treasures:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="nivelesPerdidos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LEVELS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="muerto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="yes/no"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tesorosvisiblesPerdidos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VLT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tesorosocultosPerdidos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HLT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TituloTipoTesoroVisiblePerdido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Specific visible lost treasures:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TituloTesoroOcultoPerdido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Specific hidden lost treasures:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tipotesorosperdidosVisibles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SVLT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tipotesorosperdidosOcultos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SHLT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+  </SubComponents>
+</Form>
